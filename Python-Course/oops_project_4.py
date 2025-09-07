@@ -1,9 +1,9 @@
 class Chatbook:
     def __init__(self):
-        self.__username = 'Default User'
+        self.username = ''
         self.password = ''
         self.logged_in = False
-        # self.menu()
+        self.menu()
 
     def menu(self):
         print("Welcome to the Chatbook!! \n" \
