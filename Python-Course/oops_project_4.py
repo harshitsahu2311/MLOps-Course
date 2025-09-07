@@ -1,9 +1,9 @@
 class Chatbook:
     def __init__(self):
-        self.username = ''
+        self.__username = 'Default User'
         self.password = ''
         self.logged_in = False
-        self.menu()
+        # self.menu()
 
     def menu(self):
         print("Welcome to the Chatbook!! \n" \
@@ -65,7 +65,7 @@ class Chatbook:
             frnd = input("Enter your friend name:")
             print(f"The Following message {txt} is sent to {frnd}")
         else:
-            print("Please Signin first to post on Chatbook.. \n")
+            print("Please Signin first to send message on Chatbook.. \n")
         self.menu()
 
 obj = Chatbook()

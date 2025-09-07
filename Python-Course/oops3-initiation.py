@@ -35,5 +35,3 @@ print(type(my_int))
 
 lst.clear()  # these are the methods of the class list
 print(lst)
-
-lst.Captialize()
